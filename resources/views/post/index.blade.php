@@ -1,7 +1,7 @@
 @extends('layouts.app');
 
 @section('content')
-    <div style="width: 40%; margin: auto">
+    <div style="width: 40%; margin: auto; background-color: #c7ddef">
         {!! link_to_route('posts', 'published') !!} &nbsp;&nbsp;&nbsp;
         {!! link_to_route('posts.unpublished', 'unpublished') !!} &nbsp;&nbsp;&nbsp;
         @if (Auth::guest())
